@@ -9,30 +9,56 @@
 </head>
 <body>
     <header>
-    <table><tr><td><div class="div-images"><h2>SENAICAR Auto Peças - Produtos Automotivos</h2>
-    <img src="./img/SENAIAUTO.png" alt="logo senaicar" srcset=""></div>
+    <table class="div-images"><tr><td><img src="./img/SENAIAUTO.png" alt="logo senaicar">
+        <h2>SENAICAR Auto Peças - Produtos Automotivos</h2>
 </td></tr></table>
 </header>
 <div class="container">
     <h3>Nossas produtos:</h3>
     <div class="div-produtos">
-        <input type="radio" name="frutas" id="uva" onclick="verificarProcedencia('uva')">
-        <label>Uva</label>
+        <div class="coluna1"> 
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('pneu')">
+        <label>Pneu Aro 13</label>
         <br><br>
-        <input type="radio" name="frutas" id="laranja" onclick="verificarProcedencia('laranja')">
-        <label>Laranja</label>
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('oleo')">
+        <label>Óleo do motor</label>
         <br><br>
-        <input type="radio" name="frutas" id="maça" onclick="verificarProcedencia('maça')">
-        <label>Maçã</label>
-        <br><br>
-        <input type="radio" name="frutas" id="pera" onclick="verificarProcedencia('pera')">
-        <label>Pera</label>
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('alarme')">
+        <label>Alarme para automóveis</label>
         <br><br>
     </div>
+    <div class="coluna2">
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('capa')">
+        <label>Capa de carro</label>
+        <br><br>
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('tapete')">
+        <label>Tapete de borracha</label>
+        <br><br>
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('cinto')">
+        <label>Cinto de segurança</label>
+        <br><br>
+    </div> 
+    <div class="coluna3">
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('lampada')">
+        <label>Lâmpada de farol principal</label>
+        <br><br>
+        <input type="radio" name="produtos" id="" onclick="verificarProcedencia('amortecedor')">
+        <label>Amortecedor de carro</label>
+        <br><br>
+    </div>
+    </div>
+    <br>
+    <h3>Procedência:</h3>
     <div class="div-procedencia">
-        <label id="procedencia">Procedência</label>
+        <label id="procedencia">&nbsp</label>
     </div>
 </div>
+
+<footer class="footer navbar-fixed-bottom">
+        <p>Peças automobilísticas de qualidade</p>
+        <p>Rodovia, SC-401, 3730 - Saco Grande, Florianópolis - SC, 88032-005</p>
+        <p>Telefone: (48) 3239-5800</p>
+</footer>
 
 <script src="produtos.js"></script>
 
