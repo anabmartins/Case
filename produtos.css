@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0%;
+    color: #fff;
+    background-color: black;
+}
+
+header{
+    padding: 24px;
+    margin-bottom: 17px;
+    background-color: #fff;
+    color: black;
+}
+
+.container {
+    background-color: #fff;
+    color: black;
+    margin-top: 36px;
+    margin: auto;
+    width: 80%;
+    border-radius: 16px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+h3 {
+    margin-top: auto;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #FF1616;
+    color: #fff;
+    padding: 38px;
+    margin-top: 16px;
+}
+
+.div-produtos {
+    border: 2px solid #FF1616;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 18px;
+    background-color: #fff;
+    color: black;
+}
+
+.div-procedencia {
+    border: 2px solid #FF1616;
+    border-radius: 16px;
+    padding: 16px;
+    margin-top: 8px;
+    background-color: #fff;
+    color: black;
+}
+
+.div-images{
+    display: inline;
+}
+
+.div-images h2{
+    float: left;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.div-images img {
+    display: block;
+    margin-left: 111.5px;
+    width: 268px;
+    height: 90px;
+    margin-bottom: 0;
+    float: right;
+    clear: right;
+}
