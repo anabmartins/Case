@@ -43,3 +43,64 @@ const verificarProcedencia = function(opcao){
             break
     }
 }
+
+const verificarClassificacao = function(opcao){
+    let classificacao = document.getElementById('classificacao')
+    let cdg1 = "Alimento não-perecível"
+    let cdg2 = "Alimento perecível"
+    let cdg3 = "Vestuário"
+    let cdg4 = "Higiene pessoal"
+    let cdg5 = "Limpeza e utensílios domésticos"
+
+    switch(opcao){
+    case 'milho':
+        procedencia.innerHTML = cdg1
+        break
+    case 'leite':
+        procedencia.innerHTML = cdg2
+        break
+    case 'macarrao':
+        procedencia.innerHTML = cdg1
+        break
+    case 'vestido':
+            procedencia.innerHTML = cdg3
+        break
+    case 'sabonete':
+            procedencia.innerHTML = cdg4
+        break       
+        
+    case 'tenis':
+        procedencia.innerHTML = cdg3
+    break       
+
+    case 'creme':
+            procedencia.innerHTML = cdg4
+        break       
+
+    case 'maca':
+            procedencia.innerHTML = cdg2
+        break       
+
+        case 'detergente':
+            procedencia.innerHTML = cdg5
+        break       
+
+        case 'desinfetante':
+            procedencia.innerHTML = cdg5
+        break       
+
+        case 'meia':
+            procedencia.innerHTML = cdg3
+        break     
+        
+    case 'farinha':
+        procedencia.innerHTML = cdg1
+    break       
+
+
+            
+    default:
+        procedencia.innerHTML = "Resultado não existe"
+            break
+    }
+}
