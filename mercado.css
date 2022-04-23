@@ -55,6 +55,7 @@ footer {
     margin-top: 18px;
     background-color: #fff;
     color: black;
+    column-count: 3;
 }
 
 .div-procedencia {
@@ -114,3 +115,4 @@ a:visited {
     padding-bottom: 46px;
     float: right;
 }
+
