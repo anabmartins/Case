@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI-Market</title>
+    <link rel="stylesheet" href="mercado.css">
+</head>
+<body>
+    <header>
+        <div class="div-images">
+            <table><div class="div-h2"><a href="./mercado.html"><img src="./img/senai.png" id="senai"></a>
+            <a href=""><img src="./img/senaiautoblack.png" alt="logo SENAICAR"></a></div></table>
+            <h1>SENAI-Market Supermercado</h1>
+    </div>
+    </header>
+<div class="container" layout>
+    <h1 class="produtos">Produtos</h1>
+    <br>
+    <ul>
+    <label id="batom">
+    <h2>Batom</h2>
+    <img src="./img/batom.jpg">
+    <br>
+   <p>Unidade</p><del>R$19,90 </del><ins> R$9,90</ins>
+    <p>Quantidade</p>
+    <input type="number" id="quantidade"/>
+    <br>
+    <button id="botao" onclick="calcularBatom()">Adicionar</button>
+   <br><br>
+    <p>Preço:</p>
+    <input type="number" id="valor" readonly>
+</label>
+</ul>
+</div>
+
+    <script src = "catalago.js"></script>
+</body>
+</html>
