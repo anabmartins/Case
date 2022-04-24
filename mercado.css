@@ -33,6 +33,24 @@ header{
     justify-content: center;
 }
 
+h1{
+    margin: auto;
+    font-size: 30px;
+    position: relative;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    margin: auto;
+    text-align: right;
+    font-size: 19px;
+    position: relative;
+    margin-bottom: 0;
+    color: #fff;
+}
+
 h3 {
     margin-top: auto;
     padding-bottom: 15px;
@@ -58,7 +76,7 @@ footer {
     column-count: 3;
 }
 
-.div-procedencia {
+.div-classificacao {
     border: 2px solid #D9C023;
     border-radius: 16px;
     padding: 16px;
@@ -69,24 +87,6 @@ footer {
 .div-images{
     display: inline;
     position: relative;
-}
-
-h1{
-    margin: auto;
-    font-size: 30px;
-    position: relative;
-    margin-bottom: 0;
-    color: #fff;
-    text-align: center;
-}
-
-h2 {
-    margin: auto;
-    text-align: right;
-    font-size: 19px;
-    position: relative;
-    margin-bottom: 0;
-    color: #fff;
 }
 
 .div-images img {
