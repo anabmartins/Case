@@ -54,53 +54,53 @@ const verificarClassificacao = function(opcao){
 
     switch(opcao){
     case 'milho':
-        procedencia.innerHTML = cdg1
+        classificacao.innerHTML = cdg1
         break
     case 'leite':
-        procedencia.innerHTML = cdg2
+        classificacao.innerHTML = cdg2
         break
     case 'macarrao':
-        procedencia.innerHTML = cdg1
+        classificacao.innerHTML = cdg1
         break
     case 'vestido':
-            procedencia.innerHTML = cdg3
+            classificacao.innerHTML = cdg3
         break
     case 'sabonete':
-            procedencia.innerHTML = cdg4
+            classificacao.innerHTML = cdg4
         break       
         
     case 'tenis':
-        procedencia.innerHTML = cdg3
+        classificacao.innerHTML = cdg3
     break       
 
     case 'creme':
-            procedencia.innerHTML = cdg4
+            classificacao.innerHTML = cdg4
         break       
 
     case 'maca':
-            procedencia.innerHTML = cdg2
+            classificacao.innerHTML = cdg2
         break       
 
         case 'detergente':
-            procedencia.innerHTML = cdg5
+            classificacao.innerHTML = cdg5
         break       
 
         case 'desinfetante':
-            procedencia.innerHTML = cdg5
+            classificacao.innerHTML = cdg5
         break       
 
         case 'meia':
-            procedencia.innerHTML = cdg3
+            classificacao.innerHTML = cdg3
         break     
         
     case 'farinha':
-        procedencia.innerHTML = cdg1
+        classificacao.innerHTML = cdg1
     break       
 
 
             
     default:
-        procedencia.innerHTML = "Resultado não existe"
+        classificacao.innerHTML = "Resultado não existe"
             break
     }
 }
