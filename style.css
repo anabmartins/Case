@@ -125,8 +125,55 @@ div.polaroid {
     margin-bottom: 25px;
   }
   
-  div.container {
+  div.polaroid {
     text-align: center;
     padding: 10px 20px;
     
   }
+
+  div.polaroid {
+    border: 1px solid #ccc;
+  }
+  
+  div.polaroid:hover {
+    border: 1px solid #777;
+  }
+  
+  div.polaroid img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .polaroid {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .polaroid {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .polaroid {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
