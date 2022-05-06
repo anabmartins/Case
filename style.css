@@ -28,7 +28,7 @@ header{
     margin: auto;
     width: 80%;
     border-radius: 16px;
-    padding: 50px;
+    padding: 110px;
     text-align: center;
     justify-content: center;
 }
@@ -51,12 +51,12 @@ footer {
 .div-produtos {
     border: 2px solid #D9C023;
     border-radius: 16px;
-    padding: 26px;
+    padding: 16px;
     margin-top: 18px;
     background-color: #fff;
     color: black;
     column-count: 3;
-   
+    flex-direction: column;
 
 }
 
@@ -74,7 +74,7 @@ footer {
 }
 
 p {
-    font-weight: bold;
+font-weight: bold;
 }
 
 h1{
@@ -181,5 +181,3 @@ div.polaroid {
     display: table;
     clear: both;
   } 
-
- 
