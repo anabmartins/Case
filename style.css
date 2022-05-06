@@ -35,7 +35,7 @@ header{
 
 h3 {
     margin-top: auto;
-    padding-bottom: 15px;
+    padding-bottom: 60px;
 }
 
 footer {
@@ -51,12 +51,12 @@ footer {
 .div-produtos {
     border: 2px solid #D9C023;
     border-radius: 16px;
-    padding: 16px;
+    padding: 26px;
     margin-top: 18px;
     background-color: #fff;
     color: black;
     column-count: 3;
-    flex-direction: column;
+   
 
 }
 
@@ -71,6 +71,10 @@ footer {
 .div-images{
     display: inline;
     position: relative;
+}
+
+p {
+    font-weight: bold;
 }
 
 h1{
@@ -177,3 +181,5 @@ div.polaroid {
     display: table;
     clear: both;
   } 
+
+ 
