@@ -14,26 +14,26 @@ tbody {
     position: relative;
 }
 
-header{
+header {
     padding: 68px;
     margin-bottom: 17px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
-.container {
+.content {
     background-color: #fff;
     color: black;
     margin-top: 36px;
     margin: auto;
     width: 80%;
     border-radius: 16px;
-    padding: 50px;
+    padding: 110px;
     text-align: center;
     justify-content: center;
 }
 
-h1{
+h1 {
     margin: auto;
     font-size: 30px;
     position: relative;
@@ -61,19 +61,23 @@ footer {
     color: #fff;
     font-size: 15px;
     padding: 38px;
-    margin-bottom:0;
+    margin-bottom: 0;
     text-align: center;
-    position:relative;
+    position: relative;
 }
 
 .div-produtos {
     border: 2px solid #D9C023;
     border-radius: 16px;
-    padding: 16px;
-    margin-top: 18px;
+    padding: 44px;
+    margin-top: 35px;
     background-color: #fff;
     color: black;
     column-count: 3;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 73px;
 }
 
 .div-classificacao {
@@ -84,7 +88,7 @@ footer {
     color: black;
 }
 
-.div-images{
+.div-images {
     display: inline;
     position: relative;
 }
@@ -97,16 +101,6 @@ footer {
     float: left;
 }
 
-.fa-solid, .fa-shop{
-    font-size: 1.5rem;
-    margin-left: 0.5rem;
-    color: #D9C023;
-}
-
-a:visited {
-    color: rgb(255, 255, 255);
-  }
-
 #senai {
     width: 186px;
     height: 104px;
@@ -114,4 +108,62 @@ a:visited {
     margin-right: 0%;
     padding-bottom: 46px;
     float: right;
+}
+
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+div.polaroid {
+    border: 1px solid #ccc;
+}
+
+div.polaroid:hover {
+    border: 1px solid #777;
+}
+
+div.polaroid img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.polaroid {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .polaroid {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .polaroid {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.coluna {
+    align-items: center;
 }
