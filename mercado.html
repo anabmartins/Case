@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,72 +8,134 @@
     <title>SENAI-Market</title>
     <link rel="stylesheet" href="mercado.css">
 </head>
+
 <body>
     <header>
         <div class="div-images">
-            <table><div class="div-h2"><a href="./mercado.html"><img src="./img/senai.png" id="senai"></a>
-            <a href="index.html"><img src="./img/senaiautoblack.png" alt="logo SENAICAR"></a></div></table>
+            <table>
+                <div class="div-h2"><a href="./mercado.html"><img src="./img/senai.png" id="senai"></a>
+                    <a href="index.html"><img src="./img/senaiautoblack.png" alt="logo SENAICAR"></a></div>
+            </table>
             <h1>SENAI-Market Supermercado</h1>
-    </div>
+        </div>
     </header>
-    <div class="container">
+
+    <div class="content">
         <h3>Nossas produtos:</h3>
         <div class="div-produtos">
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('milho')">
-            <label>Milho</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('leite')">
-            <label>Leite desnatado</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('desinfetante')">
-            <label>Desinfetante</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('macarrao')">
-            <label>Macarrão</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('vestido')">
-            <label>Vestido</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('sabonete')">
-            <label>Sabonete</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('tenis')">
-            <label>Tênis</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('creme')">
-            <label>Creme dental</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('detergente')">
-            <label>Detergente neutro</label>
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('meia')">
-            <label>Meia unisex</label>
-            <br><br>  
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('maca')">
-            <label>Maçã</label>
-           
-            <br><br>
-            <input type="radio" name="produtos" id="" onclick="verificarClassificacao('farinha')">
-            <label>Farinha de trigo</label>
-            <br><br>
+            <div class="coluna">
 
+                <div class="polaroid">
+                    <img src="./img/milho.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('milho')">
+                        <label>Milho</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/leite.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('leite')">
+                        <label>Leite desnatado</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/desinfetante.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('desinfetante')">
+                        <label>Desinfetante</label>
+                    </div>
+                </div>
+                <div class="polaroid">
+                    <img src="./img/vestido.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('vestido')">
+                        <label>Vestido</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/macarrao.png.opdownload" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('macarrao')">
+                        <label>Macarrão</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/sabonete.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('sabonete')">
+                        <label>Sabonete</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/tenis.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('tenis')">
+                        <label>Tênis</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/cremedental.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('creme')">
+                        <label>Creme dental</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/det.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('detergente')">
+                        <label>Detergente neutro</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/meia.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('meia')">
+                        <label>Meia unisex</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/maca.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('maca')">
+                        <label>Maçã</label>
+                    </div>
+                </div>
+
+                <div class="polaroid">
+                    <img src="./img/farinha.png" alt="5 Terre" style="width:100%">
+                    <div class="container">
+                        <input type="radio" name="produtos" id="" onclick="verificarClassificacao('farinha')">
+                        <label>Farinha de trigo</label>
+                    </div>
+                </div>
+            </div>
         </div>
-        
         <br>
         <h3>Classificação:</h3>
         <div class="div-classificacao">
             <label id="classificacao">&nbsp</label>
         </div>
     </div>
-</div>
-    
+
     <footer class="footer navbar-fixed-bottom">
-            <p>Peças automobilísticas de qualidade</p>
-            <p>Rodovia, SC-401, 3730 - Saco Grande, Florianópolis - SC, 88032-005</p>
-            <p>Telefone: (48) 3239-5800</p>
+        <p>Peças automobilísticas de qualidade</p>
+        <p>Rodovia, SC-401, 3730 - Saco Grande, Florianópolis - SC, 88032-005</p>
+        <p>Telefone: (48) 3239-5800</p>
     </footer>
-    
+
     <script src="produtos.js"></script>
-    
+
 </body>
+
 </html>
