@@ -29,14 +29,17 @@ const verificarProcedencia = function(opcao){
         procedencia.innerHTML = c3
     break       
 
-    case 'lampada':
+    case 'airbag':
             procedencia.innerHTML = c4
         break       
 
-    case 'amortecedor':
+    case 'camera':
             procedencia.innerHTML = c7
         break       
 
+    case 'volante':
+            procedencia.innerHTML = c6
+        break        
             
     default:
         procedencia.innerHTML = "Resultado não existe"
